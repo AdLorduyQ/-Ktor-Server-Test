@@ -1,0 +1,1 @@
+FROM almeidaws/ktor:latest
