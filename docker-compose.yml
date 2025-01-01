@@ -1,0 +1,9 @@
+services:
+  ktorapp:
+    build:
+      context: .
+    container_name: ktorappv2
+    ports:
+      - "80:80"
+    environment:
+      - JAVA_OPTS=-Xmx512m
